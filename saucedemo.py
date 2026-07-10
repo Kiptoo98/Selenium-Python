@@ -80,3 +80,7 @@ continue_btn = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.ID, "continue"))
 )
 continue_btn.click()
+
+#Finish button
+finish_btn = driver.find_element(By.ID, 'finish')
+finish_btn.click()
